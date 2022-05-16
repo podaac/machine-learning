@@ -15,8 +15,9 @@ This chapter is composed of two main notebooks, located in the `src/notebooks` f
 - `2. Train Eddy Segmentation.ipynb` <a href="https://colab.research.google.com/github/podaac/machine-learning/blob/main/eddy-detection/v1.book_chapter/src/notebooks/2. Train Eddy Segmentation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" height=14></a> 
 <!--> https://github.com/podaac/machine-learning/tree/main/eddy-detection/v1.book_chapter <-->
 
-<img src="src/notebooks/val_predictions.gif">
 
+<img src="src/notebooks/val_predictions.gif">
+#### The ML-based result (middle) shows more identified eddies with uninterrupted (more realistic) propogations. 
 
 # Installation Instructions:
 ## Download Conda (if necessary)
