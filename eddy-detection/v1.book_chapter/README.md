@@ -1,4 +1,7 @@
-This repository contains the content and source code for the machine learning on ocean eddies chapter of the Earth AI book.
+# Using Deep Learning to identify ocean mesoscale eddies from Sea Surface Height maps - a step-by-step guide
+
+
+This repository contains the content and source code for a chapter of a book "Artificial Intelligence for Earth science". It contents original codes as well as the use of an open-source package [py-eddy-tracker](https://py-eddy-tracker.readthedocs.io/en/stable/).
 
 Authors: 
 
