@@ -17,32 +17,33 @@ This chapter is composed of two main notebooks, located in the `src/notebooks` f
 
 
 <img src="src/notebooks/val_predictions.gif">
-#### The ML-based result (middle) shows more identified eddies with uninterrupted (more realistic) propogations. 
 
-# Installation Instructions:
-## Download Conda (if necessary)
+### The ML-based result (middle) shows more identified eddies with uninterrupted (more realistic) propogations. 
+
+## Installation Instructions:
+### Download Conda (if necessary)
 We use conda to create and manage different Python environments. You can download the conda installer for your operating system [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html).
 
 
-## Create Conda virtual environment
+### Create Conda virtual environment
 To create a conda environment, you will need to open your system's terminal (e.g., cmd.exe in windows or bash in Linux) and type one of the following commands depending whether you are using a GPU. 
 
-### If your CUDA driver is 11.0 or later:
+#### If your CUDA driver is 11.0 or later:
 ```
 conda create --name eddy_env python=3.8 pytorch torchvision torchaudio cudatoolkit=11.3 matplotlib cudnn tensorboard torchmetrics seaborn opencv tqdm pandas -c anaconda -c pytorch -c conda-forge
 ```
 
-### If your CUDA driver is 10.2:
+#### If your CUDA driver is 10.2:
 ```
 conda create --name eddy_env python=3.8 pytorch torchvision torchaudio cudatoolkit=10.2 matplotlib cudnn tensorboard torchmetrics seaborn opencv tqdm pandas -c anaconda -c pytorch -c conda-forge
 ```
 
-### If you don't have a GPU:
+#### If you don't have a GPU:
 ```
 conda create --name eddy_env python=3.8 pytorch torchvision torchaudio cpuonly matplotlib tensorboard torchmetrics seaborn opencv tqdm pandas -c anaconda -c pytorch -c conda-forge
 ```
 
-# Running the notebooks
+## Running the notebooks
 Once you have created the `eddy_env` environment, you can run the notebooks by changing directories to the chapter repo `cd /path/to/chapter/repo` and executing the following commands:
 
 ```
