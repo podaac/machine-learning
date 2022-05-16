@@ -8,8 +8,9 @@ Authors:
 
 This chapter is composed of two main notebooks, located in the `src/notebooks` folder. These notebooks are:
 
-- `1. Introduction.ipynb` <a href="https://colab.research.google.com/github/edwinytgoh/earthai_ocean_eddies_chapter/blob/master/src/notebooks/1. Introduction.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" height=14></a> 
-- `2. Train Eddy Segmentation.ipynb` <a href="https://colab.research.google.com/github/edwinytgoh/earthai_ocean_eddies_chapter/blob/master/src/notebooks/2. Train Eddy Segmentation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" height=14></a> 
+- `1. Introduction.ipynb` <a href="https://colab.research.google.com/github/podaac/machine-learning/blob/main/eddy-detection/v1.book_chapter/src/notebooks/1. Introduction.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" height=14></a> 
+- `2. Train Eddy Segmentation.ipynb` <a href="https://colab.research.google.com/github/podaac/machine-learning/blob/main/eddy-detection/v1.book_chapter/src/notebooks/2. Train Eddy Segmentation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" height=14></a> 
+<!--> https://github.com/podaac/machine-learning/tree/main/eddy-detection/v1.book_chapter <-->
 
 <img src="src/notebooks/val_predictions.gif">
 
