@@ -2,9 +2,9 @@ This repository contains the content and source code for the machine learning on
 
 Authors: 
 
-  Edwin Goh @edwinytgoh (Machine learning)
-  Jinbo Wang @jinbow (Science advisor)
-  Annie K. Didier @adidier17 (Data scientist)
+-  Edwin Goh @edwinytgoh (Machine learning)
+-  Jinbo Wang @jinbow (Science advisor)
+-  Annie K. Didier @adidier17 (Data scientist)
 
 This chapter is composed of two main notebooks, located in the `src/notebooks` folder. These notebooks are:
 
